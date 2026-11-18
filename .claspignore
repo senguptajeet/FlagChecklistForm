@@ -1,0 +1,31 @@
+# Git & version control
+.gitignore
+.gitattributes
+.git/**
+.github/**
+
+# Clasp configuration & credentials
+.claspignore
+.clasp.json
+.clasprc.json
+
+# Node & non-Apps Script JSON files (prevents clasp from pushing extra .json files)
+node_modules/**
+package.json
+package-lock.json
+tsconfig.json
+jsconfig.json
+
+# Documentation, archives & logs
+*.md
+*.zip
+*.log
+LICENSE
+
+# Environment, IDE & OS files
+.env
+.env.*
+.vscode/**
+.idea/**
+.DS_Store
+Thumbs.db
